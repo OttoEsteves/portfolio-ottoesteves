@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otto Esteves</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section id="HOME" class="todaPagina">
+        <article class="menuLateral">
+            <nav>
+                <ul id="menuItens" class="listaItens"> 
+                    
+                    <li class="classeDo1Botao">
+                            <span class="botaoExpandir" onclick="exibirMenu()"><i class="bi bi-list-stars"></i></span>
+                    </li>
+
+                    <li class="itens">
+                        <a href="#HOME">
+                            <span class="icon"><i class="bi bi-house"></i></span>
+                            <span class="nomeItem">Home</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="#ABOUTME">
+                            <span class="icon"><i class="bi bi-person-check"></i></span>
+                            <span class="nomeItem" id="aboutMe">About me</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="#SKILLS">
+                            <span class="icon"><i class="bi bi-code-slash"></i></span>
+                            <span class="nomeItem">Skills</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="#PROJECTS">
+                            <span class="icon"><i class="bi bi-device-hdd"></i></span>
+                            <span class="nomeItem">Projects</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="#CONTACTS">
+                            <span class="icon"><i class="bi bi-inboxes"></i></span>
+                            <span class="nomeItem">Contact</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="mailto:ottoesteves105@gmail.com" target="_blank">
+                            <span class="icon"><img class="imagensDaBarra" src="imagemEmailRedonda.png" alt="Email" height="28px" width="28px"></span>
+                            <span class="nomeItem">Email</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="https://www.linkedin.com/in/otto-esteves-727b58286/" target="_blank">
+                            <span class="icon"><img class="imagensDaBarra" src="imagemLinkedinRedonda.png" alt="Linkedin" height="28px" width="28px"></span>
+                            <span class="nomeItem">Linkedin</span>
+                        </a>
+                    </li>
+                    
+                    <li class="itens">
+                        <a href="https://api.whatsapp.com/send/?phone=5531987706385&text&type=phone_number&app_absent=0" target="_blank">
+                            <span class="icon"> <img class="imagensDaBarra" src="imagemWhatsApp.png" alt="WhatsApp" height="28px" width="28px"> </span>
+                            <span class="nomeItem">WhatsApp</span>
+                        </a>
+                    </li>
+                    <li class="itens">
+                        <a href="https://github.com/OttoEsteves" target="_blank">
+                            <span class="icon"><img class="imagensDaBarra" src="imagemGitHub.png" alt="GitHub" height="28px" width="28px"></span>
+                            <span class="nomeItem">GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+
+        <main id="configProMobile">
+        <article class="pagina1">
+            <h1 id="tituloPrincipal" class="titulosVerde"><span class="verde">// Welcome to my<br>portfolio!</span></h1>
+                <p id="paragrafoPrincipal"><span class="azul">int</span> main <span class="vermelho">() { </span><br>
+                &nbsp; &nbsp; printf <span class="vermelho">(</span><span class="azul">"Here I will show you, some of my skills,<br>
+                &nbsp; &nbsp; &nbsp; my projects and who I am. Hope you like."</span><span class="vermelho">);</span><br>
+                &nbsp; return <span class="rosa">0</span><span class="vermelho">; <br>
+                &nbsp; }</span></p>
+        </article>
+
+    </section>
+
+    <main id="ABOUTME">
+        <h1 class="titulosVerde"><span class="verde">About me</span></h1>
+        <p>Nice to meet you, my name is <span class="azul">Otto Esteves</span>,<br> 
+            I'm twenty-two years old and I'm studying <span class="vermelho">Software Engineering</span><br> 
+            at PUC Minas. I've always been interested in computers and<br> 
+            new technologies and for my professional life it couldn't be<br> 
+            anything else. I started my studies in programming and I do<br> 
+            some projects in my free time to improve my knowledge, improve<br> 
+            myself and gain experience.<br><br><br>
+        </p>
+
+        <section class="Curriculo">
+            <span class="tituloCurriculo"><i>curriculum:</i></span>
+            <a href="Curriculo.pdf" target="_blank">
+                <span class="exibircurriculo"><i class="bi bi-file-earmark-pdf-fill"></i>.</span>
+            </a>
+        </section>
+    </main>
+
+<main id="EXPERIENCIAS">
+    <h1 class="titulosVerde"><span class="verde">Programming Experience</span></h1>
+
+    <p id="projeto4">
+        <span class="azul">Data Processing & Analysis:</span><br>
+        Experience working with data processing and manipulation using 
+        <span class="vermelho">Python</span> and 
+        <span class="vermelho">SQL</span>. <br>
+        Development of scripts for organizing, filtering and transforming large datasets.<br><br>
+
+        <span class="azul">API Integration:</span><br>
+        Experience integrating external 
+        <span class="vermelho">REST APIs</span> 
+        to collect, send and process data between systems.<br>
+        Implementation of automated workflows connecting databases and APIs.<br><br>
+
+        <span class="azul">Automation & Web Scraping:</span><br>
+        Development of automation tools using 
+        <span class="vermelho">Python</span> and 
+        <span class="vermelho">Selenium</span> 
+        for extracting information from websites and automating repetitive tasks.<br><br>
+
+        <span class="azul">Database Management:</span><br>
+        Experience designing and managing relational databases using 
+        <span class="vermelho">MySQL</span> and 
+        <span class="vermelho">SQL Server</span>. <br>
+        Writing complex queries, joins and data optimization.<br><br>
+
+        <span class="azul">System Integration:</span><br>
+        Development of backend scripts that read data from databases, process information and send results to external services or APIs.<br>
+        Focus on reliability, automation and data consistency.
+    </p>
+</main>
+
+
+    <main id="SKILLS">
+        <h1 class="titulosVerde"><span class="verde">Skills</span></h1>
+
+        <section class="skillsimg1">
+
+
+                <figure>
+                    <img src="imagemHTML.png" class="imagemSkills"  alt="HTML">
+                    <figcaption>HTML 5</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemCSS.png" class="imagemSkills" alt="CSS">
+                    <figcaption>CSS 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemJavaScript.png" class="imagemSkills" alt="JAVASCRIPT">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+
+
+
+                <figure>
+                    <img src="imagemC.png" class="imagemSkills" alt="C">
+                    <figcaption>C</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemSQL4.png" class="imagemSkills" id="imagemSQL" alt="SQL">
+                    <figcaption>SQL</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemPython2.png" class="imagemSkills" alt="PYTHON">
+                    <figcaption>Python</figcaption>
+                </figure>
+
+        </section>
+
+        <section class="skillsimg2">
+
+
+                <figure>
+                    <img src="imagemLogicaDeProgramação.png" class="imagemSkills"  alt="Programming Logic">
+                    <figcaption>Programming Logic</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemGit.png" class="imagemSkills" alt="GIT">
+                    <figcaption>Git</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemGitHubSkills.png" class="imagemSkills" alt="Git Hub">
+                    <figcaption>Git Hub</figcaption>
+                </figure>
+
+
+
+                <figure>
+                    <img src="imagemSQLGrandona.png" class="imagemSkills" alt="MySQL">
+                    <figcaption>My SQL</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemSQLserver.png" class="imagemSkills" alt="SQLserver">
+                    <figcaption>SQL Server</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagemOffice365Grande.png" class="imagemSkills" alt="Office 365">
+                    <figcaption>Pacote Office 365</figcaption>
+                </figure>
+
+        </section>
+
+    </main>
+
+<main id="PROJECTS">
+    <h1 class="titulosVerde"><span class="verde">Projects</span></h1>
+
+    <!-- PROJETO 1 -->
+    <section class="imgProjetos">
+
+        <article class="p1">
+            <figure class="projeto1">
+                <img src="factaapi.png" alt="FactaAPI Project">
+                <figcaption class="tituloProjeto">FactaAPI</figcaption>
+
+                <p class="pProjetos"><br>
+                    FactaAPI is a backend API designed<br>
+                    to handle queries and registrations<br>
+                    related to <b>FGTS</b>. The system<br>
+                    manages data requests, validations<br>
+                    and communication between services,<br>
+                    focusing on reliability and data<br>
+                    processing.<br>
+                    <br>
+                </p>
+
+                <section class="linguagensUsadas">
+                    <img src="imagemPython.png" alt="Python">
+                    <img src="imagemSQL.png" alt="SQL">
+                </section>
+
+                <section class="botoesProjetos">
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Code repertoire <i class="bi bi-file-earmark-code"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Private project
+                    </button>
+                </section>
+            </figure>
+        </article>
+
+
+        <article class="p2">
+            <figure class="projeto2">
+                <img src="amilbot.png" alt="AmilBot Project">
+                <figcaption class="tituloProjeto">AmilBot</figcaption>
+
+                <p class="pProjetos"><br>
+                    AmilBot is a Python automation script<br>
+                    that performs automated queries on<br>
+                    web pages using <b>Selenium WebDriver</b>.<br>
+                    The bot navigates websites, fills forms,<br>
+                    extracts information and automates<br>
+                    repetitive tasks normally done manually.<br>
+                    <br>
+                </p>
+
+                <section class="linguagensUsadas">
+                    <img src="imagemPython.png" alt="Python">
+                    <img src="imagemSQL.png" alt="SQL">
+                </section>
+
+                <section class="botoesProjetos">
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Code repertoire <i class="bi bi-file-earmark-code"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Private project
+                    </button>
+                </section>
+            </figure>
+        </article>
+
+
+        <article class="p3">
+            <figure class="projeto3">
+                <img src="multibank.png" alt="Vortex Project">
+                <figcaption class="tituloProjeto">Vortex Project</figcaption>
+
+                <p class="pProjetos"><br>
+                    Vortex Auto Parts is an ERP system<br>
+                    for <b>inventory Management</b> cash control<br>
+                    and HR information. Such as salaries and sales<br>
+                    for each employee, for a sales company<br>
+                    
+                    <br>
+                </p>
+
+                <section class="linguagensUsadas">
+                    <img src="imagemJavaScript.png" alt="JavaScript">
+                    <img src="imagemHTML.png" alt="HTML">
+                    <img src="imagemMySQL.png" alt="MySQL">
+                </section>
+
+                <section class="botoesProjetos">
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Code repertoire <i class="bi bi-file-earmark-code"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Private project
+                    </button>
+                </section>
+            </figure>
+        </article>
+
+    </section>
+</main>
+
+
+    <footer>
+        <article id="CONTACTS" class="CONTACTS">
+            <section>
+                <p class="frase"><i>"mais importante que a velocidade<br> 
+                    é a constância da evolução."</i></p>
+            </section>
+
+            <section class="mensagemContato">
+                <h1 id="tituloContato">CONTACT</h1>
+
+                <form class="forumulario" action="https://api.staticforms.xyz/submit" method="post">
+
+                    <article class="parte1Formulario">
+                        <label>Name:</label>
+                        <input id="name" type="text" name="name" placeholder="Type your name" required>
+
+                        <label>E-mail:</label>
+                        <input id="email" type="email" name="email" placeholder="Type your e-mail"  required>
+                    </article>
+
+                    <article class="parte2Formulario">
+                        <label>Message:</label>
+                        <textarea id="message" name="message" cols="30" rows="4" placeholder="Type your message" required></textarea>
+
+                        <button id="botaoFormulario" type="submit"><i class="bi bi-send-fill">Send</i></button>
+
+                        <input type="hidden" name="accessKey" value="b63ee1e9-476d-4f82-a648-fdccad128dc5">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                    </article>
+                </form>
+            </section>
+
+            <section class="imagemCONTACTS">               
+                <section class="imagemCONTACTS1">
+                    <figure id="emaildofooter" class="ladoalado">
+                        <img src="imagemEmailFooter.png" width="50" height="50" alt="Email">
+                        <figcaption class="contatoLegenda">ottoesteves105@gmail.com</figcaption>
+                    </figure>
+                    <figure class="ladoalado">
+                        <img src="imagemTelefoneFooter.png" width="50" height="50" alt="Telefone">
+                        <figcaption class="contatoLegenda">+55 (31) 988316686</figcaption>
+                         </figure>
+                </section>
+            </section>
+        </article>
+    </footer>
+</main>
+    <script src="js.js"></script>
+</body>
+</html>
